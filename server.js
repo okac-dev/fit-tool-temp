@@ -41,4 +41,4 @@ app.get('/:toolName',(req,res)=>{
    }
 })
 
-app.listen(2000)
+app.listen(process.env.PORT || 2000)
